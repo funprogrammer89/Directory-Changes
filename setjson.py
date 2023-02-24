@@ -4,7 +4,7 @@ import json
 filedic = dict()
 # walk through directory and all subdirectories
 print("\033[95mEnter a directory below to create a \033[96m'files.json'\033[0m\033[95m file to save the state of the "
-      "directory :\n ")
+      "directory :\n\033[0m\n ")
 directory = input()
 subdirs = [x[0] for x in os.walk(directory)]
 for x in subdirs:
